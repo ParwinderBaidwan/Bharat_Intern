@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my first portfolio website">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="favicon1.ico" type="images/x-icon">
+        <script src="https://kit.fontawesome.com/7e07a3bf71.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav> 
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm <span>Parwinder Singh</span><br></h1>
+                    <p>Front-end Web Developer</p>
+                </div>
+            </div>
+        </div>
+        <!----------------About Section---------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Psb.jpeg" alt="user">
+                    </div>
+                    <div class="about-col-2"> 
+                        <h1 class="sub-title">ABOUT ME</h1><br>
+                        <p>This is <b>Parwinder Singh</b>, Welcomes you to my portfolio website,  having Strong foundation in computer science principles and programming
+                            languages. I am having Passion for problem solving and loves to solve tricky
+                            problems. With a good teamwork skills, I thrive in group setting and
+                            value open exchange of ideas.</p><br><br>
+                        
+                        
+                        <div class="tab-contents" id="education">
+                            <p>Education</p>
+                            <ul>
+                                <li><span>2021-2025</span><br>BE CSE at Chitkara University, Punjab.</li><br>
+                                <li><span>2020-2021</span><br>12th from Government Model Sr. Sec. School, Chandigarh</li><br>
+                                <li><span>2018-2019</span><br>10th from Lawrance Public Sr. Sec. School, Punjab.</li>
+                            </ul>
+                        </div>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------------Contact Section---------------------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">CONTACT ME</h1>
+                        <p><i class="fas fa-paper-plane"></i>parwinderb550@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"> 7780597484 </i></p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/VHarsha_3?t=PEexGGQaD_qtDom8qRFp8Q&s=08"><i class="fa fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/darling__003/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/harsha-vinjamuri-062a24232"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name"required>
+                            <input type="email" name="Email" placeholder="Your Email"required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <div class="copyright">
+                <p>copyright © Parwinder Singh. Made with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+      
+    </body>
+</html>
